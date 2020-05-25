@@ -9,11 +9,10 @@ class Streampage extends Component {
   state = {};
   render() {
     return (
-      <div className="bg-img">
+      <div className="mainbg-img">
         <div className="stream1">
           <Card style={{ width: "18rem" }}>
             <Card.Img
-              className="card-img"
               variant="top"
               src="https://scx2.b-cdn.net/gfx/news/hires/2019/physics.jpg"
             />
@@ -25,7 +24,7 @@ class Streampage extends Component {
                 either Chemistry or ICT, though Combined Mathematics and Physics
                 are mandatory.
               </Card.Text>
-              <Link to="/mainsubjects">
+              <Link to="/physubjects">
                 <Button variant="warning">
                   <span>Click here</span>
                 </Button>
@@ -36,7 +35,6 @@ class Streampage extends Component {
         <div className="stream2">
           <Card style={{ width: "18rem" }}>
             <Card.Img
-              className="card-img"
               variant="top"
               src="https://cdn.leverageedu.com/blog/wp-content/uploads/2020/01/30120543/Biology-Practical.png"
             />
@@ -48,7 +46,7 @@ class Streampage extends Component {
                 have option of selecting physics or Agricultural science, while
                 biology and chemistry are mandatory.
               </Card.Text>
-              <Link to="/mainsubjects">
+              <Link to="/biosubjects">
                 <Button variant="warning">
                   <span>Click here</span>
                 </Button>

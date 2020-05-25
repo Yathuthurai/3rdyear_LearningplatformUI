@@ -3,14 +3,17 @@ import "./App.css";
 import Navibar from "./HeaderComponents/Navibar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Streamspage from "./BodyComponents/Streamspage";
-import Mainsubjects from "./BodyComponents/Mainsubjects";
+import Biologysubjects from "./BodyComponents/Biologysubjects";
+import Physicalsubjects from "./BodyComponents/Physicalsubjects";
+import Physicsunit from "./BodyComponents/subjects/Physicsunit";
+import Chemistryunits from "./BodyComponents/subjects/Chemistryunit";
+import Biologyunits from "./BodyComponents/subjects/Biologyunits";
 import {
   BrowserRouter as Router,
   Route,
   Redirect,
   Switch,
 } from "react-router-dom";
-
 function App() {
   return (
     <Router>
@@ -20,8 +23,20 @@ function App() {
           <Route path="/" exact>
             <Streamspage />
           </Route>
-          <Route path="/mainsubjects" exact>
-            <Mainsubjects />
+          <Route path="/biosubjects" exact>
+            <Biologysubjects />
+          </Route>
+          <Route path="/physubjects" exact>
+            <Physicalsubjects />
+          </Route>
+          <Route path="/physicsunits" exact>
+            <Physicsunit/>
+          </Route>
+          <Route path="/chemistryunits" exact>
+            <Chemistryunits/>
+          </Route>
+          <Route path="/biologyunits" exact>
+            <Biologyunits/>
           </Route>
           <Redirect to="/" />
         </Switch>
