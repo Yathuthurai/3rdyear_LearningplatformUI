@@ -1,8 +1,7 @@
 import React from "react";
 
 import UnitsList from "../components/UnitsList";
-import './Units.css';
-
+import "./Units.css";
 
 const Physicsunits = () => {
   const UNITS = [
@@ -24,7 +23,7 @@ const Physicsunits = () => {
       id: "u3",
       name: "Oscillations & Waves",
       image:
-        "https://lh3.googleusercontent.com/proxy/hh-ji--1hCRFBnzyco-9EtvyDuIREDYDaoTvsKgZTpoQzxANTkFjKEIQJ2thZjl0yrs1nSdMX3himmrGgAnkK1DwzPYCv92Kad3MlG79856LGFxSBXivV_iu8gZfszkvNESr7WRfCK99pw",
+        "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A97eb4b3ec5d62f51a3352ce3e45bb4b10a3078533289a9e590cb8514%2BIMAGE_TINY%2BIMAGE_TINY.1",
       modules: 20,
     },
     {
@@ -82,11 +81,7 @@ const Physicsunits = () => {
       image:
         "https://www.nuclear-power.net/wp-content/uploads/2015/04/Barium-137-radionuclide-300x300.png?ezimgfmt=rs:290x290/rscb3/ng:webp/ngcb3",
       modules: 7,
-    }
-
-
-
-
+    },
   ];
   return (
     <div className="phy-bg">

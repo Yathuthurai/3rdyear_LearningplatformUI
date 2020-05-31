@@ -23,7 +23,7 @@ const Chemistryunits = () => {
       id: "u3",
       name: "Chemical calculations",
       image:
-        "https://lh3.googleusercontent.com/proxy/hh-ji--1hCRFBnzyco-9EtvyDuIREDYDaoTvsKgZTpoQzxANTkFjKEIQJ2thZjl0yrs1nSdMX3himmrGgAnkK1DwzPYCv92Kad3MlG79856LGFxSBXivV_iu8gZfszkvNESr7WRfCK99pw",
+        "https://blog.camelot-group.com/wp-content/uploads/2019/01/Chemicals-regulation-590x430.jpg",
       modules: 20,
     },
     {
@@ -102,7 +102,7 @@ const Chemistryunits = () => {
       image:
         "https://www.nuclear-power.net/wp-content/uploads/2015/04/Barium-137-radionuclide-300x300.png?ezimgfmt=rs:290x290/rscb3/ng:webp/ngcb3",
       modules: 7,
-    }
+    },
   ];
   return (
     <div className="phy-bg">

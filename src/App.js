@@ -8,6 +8,7 @@ import Physicalsubjects from "./BodyComponents/Physicalsubjects";
 import Physicsunit from "./BodyComponents/subjects/Physicsunit";
 import Chemistryunits from "./BodyComponents/subjects/Chemistryunit";
 import Biologyunits from "./BodyComponents/subjects/Biologyunits";
+import ComMathscategories from "./BodyComponents/subjects/ComMathscategories";
 import {
   BrowserRouter as Router,
   Route,
@@ -29,14 +30,17 @@ function App() {
           <Route path="/physubjects" exact>
             <Physicalsubjects />
           </Route>
+          <Route path="/combinedmathscat" exact>
+            <ComMathscategories />
+          </Route>
           <Route path="/physicsunits" exact>
-            <Physicsunit/>
+            <Physicsunit />
           </Route>
           <Route path="/chemistryunits" exact>
-            <Chemistryunits/>
+            <Chemistryunits />
           </Route>
           <Route path="/biologyunits" exact>
-            <Biologyunits/>
+            <Biologyunits />
           </Route>
           <Redirect to="/" />
         </Switch>

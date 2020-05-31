@@ -29,15 +29,14 @@ const Biologyunits = () => {
     {
       id: "u4",
       name: "Plant form and function",
-      image:
-        "https://www.cropsreview.com/images/green-4155081_1920.jpg",
+      image: "https://www.cropsreview.com/images/green-4155081_1920.jpg",
       modules: 12,
     },
     {
       id: "u5",
       name: "Animal form and function",
       image:
-        "https://lh3.googleusercontent.com/proxy/5zTdceqc0fJv1Kx6k7HQF-0sEMMcC7HlWm2wnadxoGRnnKHp5GSvHNGKDke1-RXHgHgdWg9Ggz4-_IZ6Xvao_epwdJR-YVFkCtQ_Bds8fUY5pSM",
+        "https://i.pinimg.com/originals/9c/6d/33/9c6d33a211154b0187abab8dbbef97f5.jpg",
       modules: 4,
     },
     {
@@ -74,7 +73,7 @@ const Biologyunits = () => {
       image:
         "https://www.nikon.com/products/microscope-solutions/bioscience-applications/clinical/img/heading_microbiology.jpg",
       modules: 11,
-    }
+    },
   ];
   return (
     <div className="phy-bg">

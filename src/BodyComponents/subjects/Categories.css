@@ -1,0 +1,53 @@
+.mathsitem1 {
+  position: absolute;
+  right: 0;
+  margin: 60px;
+  margin-right: 400px;
+  max-width: 300px;
+  padding: 2px;
+  background-color: transparent;
+}
+
+.mathsitem2 {
+  position: absolute;
+  left: 0;
+  margin: 60px;
+  margin-left: 350px;
+  max-width: 300px;
+  padding: 2px;
+  background-color: transparent;
+}
+
+.pure-ma {
+  position: absolute;
+  left: 0;
+  margin: 100px;
+  margin-left: 350px;
+  padding: 2px;
+  min-width: 351px;
+  min-height: 390px;
+  background-color: transparent;
+}
+
+.applied-ma {
+  position: absolute;
+  right: 0;
+  margin: 100px;
+  margin-right: 350px;
+  min-width: 351px;
+  min-height: 390px;
+  padding: 2px;
+  background-color: transparent;
+}
+
+.bg-img {
+  /* The image used */
+  min-height: 685px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: darkslategrey;
+}
