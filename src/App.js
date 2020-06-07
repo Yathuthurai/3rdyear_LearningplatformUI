@@ -9,6 +9,7 @@ import Physicsunit from "./BodyComponents/subjects/Physicsunit";
 import Chemistryunits from "./BodyComponents/subjects/Chemistryunit";
 import Biologyunits from "./BodyComponents/subjects/Biologyunits";
 import ComMathscategories from "./BodyComponents/subjects/ComMathscategories";
+import SubjectVideo from "./BodyComponents/SubjectVideo";
 import {
   BrowserRouter as Router,
   Route,
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route path="/biologyunits" exact>
             <Biologyunits />
+          </Route>
+          <Route path="/:unitId/modules" exact>
+            <SubjectVideo />
           </Route>
           <Redirect to="/" />
         </Switch>
