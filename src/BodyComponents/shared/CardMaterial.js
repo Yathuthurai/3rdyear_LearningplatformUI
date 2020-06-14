@@ -59,7 +59,7 @@ export default function CardMaterial(props) {
       </CardContent>
       <CardActions disableSpacing>
         <Link to={props.LinkRoute}>
-          <Button variant="primary">{props.ButtonText}</Button>
+          <Button variant="dark">{props.ButtonText}</Button>
         </Link>
       </CardActions>
     </Card>

@@ -11,7 +11,7 @@ class Streampage extends Component {
     return (
       <div className="mainbg-img">
         <div className="stream1">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "20rem", height: "33rem" }}>
             <Card.Img
               variant="top"
               src="https://scx2.b-cdn.net/gfx/news/hires/2019/physics.jpg"
@@ -33,7 +33,7 @@ class Streampage extends Component {
           </Card>
         </div>
         <div className="stream2">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "20rem", height: "33rem" }}>
             <Card.Img
               variant="top"
               src="https://cdn.leverageedu.com/blog/wp-content/uploads/2020/01/30120543/Biology-Practical.png"

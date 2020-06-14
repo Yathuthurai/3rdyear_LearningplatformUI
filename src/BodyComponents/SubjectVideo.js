@@ -38,7 +38,7 @@ function SubjectVideo() {
                     your score
                     <br />
                     <br />
-                    <Button variant="primary" size="sm">
+                    <Button variant="outline-primary" size="sm">
                       Attempt Quiz
                     </Button>
                   </Card.Text>

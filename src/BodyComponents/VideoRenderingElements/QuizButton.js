@@ -21,10 +21,10 @@ function QuizButton() {
           Do you want to ask your question in Question forum ???
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="outline-secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="outline-primary" onClick={handleClose}>
             Go to Question forum
           </Button>
         </Modal.Footer>

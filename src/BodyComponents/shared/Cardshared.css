@@ -1,3 +1,8 @@
 .card-bg {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
+}
+
+.txt-btn {
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }

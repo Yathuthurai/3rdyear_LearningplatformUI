@@ -1,62 +1,61 @@
 .container-sub {
-    position: absolute;
-    align-self: center;
-    background-color: azure;
+  position: absolute;
+  align-self: center;
+  background-color: azure;
 }
 
 .bio-card {
-    position: absolute;
-    right: 0;
-    margin: 120px;
-    margin-right: 180px;
-    max-width: 400px;
-    padding: 2px;
-    background-color: transparent;
+  position: absolute;
+  right: 0;
+  margin: 120px;
+  margin-right: 10%;
+  max-width: 400px;
+  padding: 2px;
+  background-color: transparent;
 }
 
 .physics-card {
-    position: absolute;
-    left: 0;
-    margin: 120px;
-    margin-left: 180px;
-    max-width: 400px;
-    padding: 2px;
-    background-color: transparent;
-    border-radius: 5px;
-    
+  position: absolute;
+  left: 0;
+  margin: 120px;
+  max-width: 400px;
+  margin-left: 10%;
+  padding: 2px;
+  background-color: transparent;
+  border-radius: 5px;
 }
 
 .chemistry-card {
-    position: absolute;
-    left: 0;
-    margin: 120px;
-    margin-left: 590px;
-    max-width: 400px;
-    padding: 2px;
-    background-color: transparent;
+  position: absolute;
+  left: 0;
+  margin: 120px;
+  margin-left: 41%;
+  max-width: 400px;
+  padding: 2px;
+  background-color: transparent;
 }
 
 .bg-img {
-    /* The image used */
-    min-height: 685px;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-color: darkslategrey;
-  }
+  /* The image used */
+  min-height: 685px;
 
-  .zoom {
-    transition: transform .2s;
-    width: 2px;
-    height: 2px;
-    margin: 0 auto;
-  }
-  
-  .zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-  }
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: darkslategrey;
+}
+
+.zoom {
+  transition: transform 0.2s;
+  width: 2px;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
