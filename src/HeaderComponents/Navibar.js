@@ -49,7 +49,7 @@ function Navibar() {
         </ul>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link text-light" href="#signin">
+            <a className="nav-link text-light" href="/signin">
               Sign In
             </a>
           </li>

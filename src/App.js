@@ -10,6 +10,7 @@ import Chemistryunits from "./BodyComponents/subjects/Chemistryunit";
 import Biologyunits from "./BodyComponents/subjects/Biologyunits";
 import ComMathscategories from "./BodyComponents/subjects/ComMathscategories";
 import SubjectVideo from "./BodyComponents/SubjectVideo";
+import SigninPage from "./BodyComponents/SigninPage";
 import HomePage from "./BodyComponents/HomePage";
 import {
   BrowserRouter as Router,
@@ -25,6 +26,9 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <HomePage />
+          </Route>
+          <Route path="/signin" exact>
+            <SigninPage />
           </Route>
           <Route path="/learningPlatform" exact>
             <Streamspage />

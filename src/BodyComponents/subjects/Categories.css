@@ -1,8 +1,8 @@
-.mathsitem1 {
+/*.mathsitem1 {
   position: absolute;
   right: 0;
   margin: 60px;
-  margin-right: 400px;
+  margin-right: 18%;
   max-width: 300px;
   padding: 2px;
   background-color: transparent;
@@ -12,17 +12,17 @@
   position: absolute;
   left: 0;
   margin: 60px;
-  margin-left: 350px;
+  margin-left: 18%;
   max-width: 300px;
   padding: 2px;
   background-color: transparent;
-}
+}*/
 
 .pure-ma {
   position: absolute;
   left: 0;
   margin: 100px;
-  margin-left: 350px;
+  margin-left: 18%;
   padding: 2px;
   min-width: 351px;
   min-height: 390px;
@@ -33,7 +33,7 @@
   position: absolute;
   right: 0;
   margin: 100px;
-  margin-right: 350px;
+  margin-right: 18%;
   min-width: 351px;
   min-height: 390px;
   padding: 2px;
