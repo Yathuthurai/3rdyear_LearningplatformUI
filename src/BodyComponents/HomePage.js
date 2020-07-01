@@ -55,7 +55,7 @@ function HomePage() {
               <span className="fa-stack fa-4x">
                 <i
                   className="fa fa-circle fa-stack-2x"
-                  style={{ color: "dodgerblue" }}
+                  style={{ color: "#25315e" }}
                 ></i>
                 <i className="fa fa-pencil fa-fw fa-stack-1x fa-inverse"></i>
               </span>
@@ -70,7 +70,7 @@ function HomePage() {
               <span className="fa-stack fa-4x">
                 <i
                   className="fa fa-circle fa-stack-2x"
-                  style={{ color: "dodgerblue" }}
+                  style={{ color: "#25315e" }}
                 ></i>
                 <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
               </span>
@@ -85,7 +85,7 @@ function HomePage() {
               <span className="fa-stack fa-4x">
                 <i
                   className="fa fa-circle fa-stack-2x"
-                  style={{ color: "dodgerblue" }}
+                  style={{ color: "#25315e" }}
                 ></i>
                 <i className="fa fa-book fa-fw fa-stack-1x fa-inverse"></i>
               </span>
@@ -236,7 +236,7 @@ function HomePage() {
                 <li className="timeline-inverted">
                   <div
                     className="timeline-image"
-                    style={{ backgroundColor: "dodgerblue" }}
+                    style={{ backgroundColor: "#25315e" }}
                   >
                     <h4 style={{ color: "white" }}>
                       Travel with
@@ -262,7 +262,7 @@ function HomePage() {
               </h2>
             </div>
           </div>
-          <div className="row" style={{ color: "dodgerblue" }}>
+          <div className="row" style={{ color: "#25315e" }}>
             <div className="col-sm-4">
               <div className="team-member">
                 <img
@@ -354,7 +354,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="row" style={{ color: "dodgerblue" }}>
+          <div className="row" style={{ color: "#25315e" }}>
             <div className="col-sm-6">
               <div className="team-member">
                 <img
@@ -544,11 +544,7 @@ function HomePage() {
       <footer className="footer">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-4">
-              <span className="copyright">
-                Copyright &copy; Your Website 2020
-              </span>
-            </div>
+            <div className="col-md-4"></div>
             <div className="col-md-4">
               <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
@@ -568,16 +564,7 @@ function HomePage() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-4">
-              <ul className="list-inline quicklinks">
-                <li className="list-inline-item">
-                  <a href="#something">Privacy Policy</a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#something">Terms of Use</a>
-                </li>
-              </ul>
-            </div>
+            <div className="col-md-4"></div>
           </div>
         </div>
       </footer>

@@ -21,27 +21,27 @@ function Navibar() {
               Lankatutor
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link text-light" href="/learningPlatform">
-              L-Platform
+          <li className="nav-item" style={{ paddingLeft: "7%" }}>
+            <a className="nav-link text-light" href="/paymentform">
+              MyTable
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" style={{ paddingLeft: "7%" }}>
             <a className="nav-link text-light" href="#about">
               About
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" style={{ paddingLeft: "7%" }}>
             <a className="nav-link text-light" href="#subjects">
               Subjects
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" style={{ paddingLeft: "7%" }}>
             <a className="nav-link text-light" href="#team">
               Team
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" style={{ paddingLeft: "7%" }}>
             <a className="nav-link text-light" href="#contact">
               Contact
             </a>
