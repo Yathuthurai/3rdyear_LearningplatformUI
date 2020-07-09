@@ -22,7 +22,7 @@ function Navibar() {
             </a>
           </li>
           <li className="nav-item" style={{ paddingLeft: "7%" }}>
-            <a className="nav-link text-light" href="/paymentform">
+            <a className="nav-link text-light" href="/paymentcategory">
               MyTable
             </a>
           </li>

@@ -13,11 +13,12 @@ import IconButton from "@material-ui/core/IconButton";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
-//import Link from "@material-ui/core/Link";
+import Link from "@material-ui/core/Link";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import { mainListItems, secondaryListItems } from "./ListItems";
 import MediaCard from "./shared/MediaCard";
+import Button from "@material-ui/core/Button";
 //import ProfileAvatar from "./shared/ProfileAvatar"
 
 const drawerWidth = 240;
@@ -146,6 +147,9 @@ export default function MyTable(props) {
           >
             MyTable
           </Typography>
+          <Link href="/signin">
+            <Button variant="contained">LOG OUT</Button>
+          </Link>
         </Toolbar>
       </AppBar>
       <Drawer

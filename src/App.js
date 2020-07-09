@@ -13,6 +13,7 @@ import SubjectVideo from "./BodyComponents/SubjectVideo";
 import SigninPage from "./BodyComponents/SigninPage";
 import HomePage from "./BodyComponents/HomePage";
 import Checkout from "./BodyComponents/PaymentComponents/Checkout";
+import PaymentCategories from "./BodyComponents/PaymentComponents/PaymentCategories";
 import MyTable from "./BodyComponents/TableComponents/MyTable";
 import {
   BrowserRouter as Router,
@@ -20,6 +21,7 @@ import {
   Redirect,
   Switch,
 } from "react-router-dom";
+
 function App() {
   return (
     <Router>
@@ -31,6 +33,9 @@ function App() {
           </Route>
           <Route path="/signin" exact>
             <SigninPage />
+          </Route>
+          <Route path="/paymentcategory" exact>
+            <PaymentCategories />
           </Route>
           <Route path="/paymentform" exact>
             <Checkout />

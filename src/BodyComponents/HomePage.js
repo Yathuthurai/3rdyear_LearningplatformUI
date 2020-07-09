@@ -21,11 +21,11 @@ function HomePage() {
                 fontStyle: "italic",
               }}
             >
-              Welcome To TutorLanka Learning Platform!
+              Welcome To LankaTutor Learning Platform!
             </div>
             <div
               className="intro-heading text-uppercase"
-              style={{ fontSize: "25px", fontWeight: "700", color: "yellow" }}
+              style={{ fontSize: "25px", fontWeight: "700", color: "gold" }}
             >
               It's Nice To Meet You 🙂
             </div>
