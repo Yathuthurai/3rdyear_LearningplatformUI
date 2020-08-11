@@ -1,9 +1,9 @@
 import React from "react";
-import "./UnitsList.css";
-import UnitItem from "./UnitItem";
+import "./SubjectsList.css";
+import SubjectItem from "./SubjectItem";
 import Card from "../shared/Card";
 
-const UnitsList = (props) => {
+const SubjectsList = (props) => {
   if (props.items.length === 0) {
     return (
       <div className="center">
@@ -17,7 +17,7 @@ const UnitsList = (props) => {
   return (
     <ul className="users-list">
       {props.items.map((unit) => (
-        <UnitItem
+        <SubjectItem
           key={unit.id}
           id={unit.id}
           image={unit.image}
@@ -29,4 +29,4 @@ const UnitsList = (props) => {
   );
 };
 
-export default UnitsList;
+export default SubjectsList;

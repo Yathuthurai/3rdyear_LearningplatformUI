@@ -12,6 +12,7 @@ class Video extends Component {
           url="https://youtu.be/vz0UUVDt2ps"
           width="100%"
           height="100%"
+          controls={true}
         />
       </div>
     );

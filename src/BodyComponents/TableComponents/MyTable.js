@@ -244,8 +244,8 @@ export default function MyTable(props) {
                     CardTitle="maths"
                     CardContent="Combined Mathematics"
                     UnitNum="10"
-                    Button1Text="Pure Maths"
-                    Button2Text="Applied Maths"
+                    Button1Text="P.Maths"
+                    Button2Text="A.Maths"
                   />
                 </Paper>
               </Grid>

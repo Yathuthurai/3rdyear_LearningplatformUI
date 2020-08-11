@@ -3,7 +3,7 @@ import React from "react";
 import SubjectsList from "../components/SubjectsList";
 import "./Units.css";
 
-const Chemistryunits = () => {
+const DemoUnit = () => {
   const UNITS = [
     {
       id: "c1",
@@ -111,4 +111,4 @@ const Chemistryunits = () => {
   );
 };
 
-export default Chemistryunits;
+export default DemoUnit;

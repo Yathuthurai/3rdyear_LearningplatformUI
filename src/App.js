@@ -2,9 +2,7 @@ import React from "react";
 import "./App.css";
 import Navibar from "./HeaderComponents/Navibar";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import Streamspage from "./BodyComponents/Streamspage";
-//import Biologysubjects from "./BodyComponents/Biologysubjects";
-//import Physicalsubjects from "./BodyComponents/Physicalsubjects";
+
 import Physicsunit from "./BodyComponents/subjects/Physicsunit";
 import Chemistryunits from "./BodyComponents/subjects/Chemistryunit";
 import Biologyunits from "./BodyComponents/subjects/Biologyunits";

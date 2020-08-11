@@ -13,13 +13,13 @@ function SubjectVideo() {
     <div className="bgtype">
       <Container style={{ paddingTop: "50px" }}>
         <Row>
-          <Col sm={10} style={{ paddingTop: "5px" }}>
+          <Col sm={10} style={{ paddingTop: "5px", paddingLeft: 1 }}>
             <Video />
             <br />
           </Col>
           <Col sm={2}>
             <div className="sideBox">
-              <Card border="light" style={{ width: "18rem" }}>
+              <Card border="light" style={{ width: "17rem" }}>
                 <Card.Header>Subject_Name: module 1</Card.Header>
                 <Card.Body>
                   <Card.Title>Quiz</Card.Title>
