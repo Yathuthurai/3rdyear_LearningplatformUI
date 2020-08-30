@@ -231,6 +231,7 @@ export default function MyTable(props) {
                     CardContent="Information Technology"
                     UnitNum="10"
                     Button1Text="ENROLL NOW"
+                    ButtonRoute1="itunits"
                   />
                 </Paper>
               </Grid>

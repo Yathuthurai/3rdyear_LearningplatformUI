@@ -16,7 +16,7 @@ function HomePage() {
             <div
               className="intro-lead-in"
               style={{
-                fontSize: "50px",
+                fontSize: "30px",
                 fontWeight: "700",
                 fontStyle: "italic",
               }}
@@ -25,12 +25,12 @@ function HomePage() {
             </div>
             <div
               className="intro-heading text-uppercase"
-              style={{ fontSize: "25px", fontWeight: "700", color: "gold" }}
+              style={{ fontSize: "25px", fontWeight: "700", color: "orange" }}
             >
               It's Nice To Meet You 🙂
             </div>
             <a
-              className="btn btn-light btn-xl text-uppercase js-scroll-trigger"
+              className="btn btn-light btn text-uppercase js-scroll-trigger"
               href="#about"
               style={{ marginTop: "3%" }}
             >

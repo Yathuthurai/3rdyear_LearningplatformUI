@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Physicsunit from "./BodyComponents/subjects/Physicsunit";
 import Chemistryunits from "./BodyComponents/subjects/Chemistryunit";
 import Biologyunits from "./BodyComponents/subjects/Biologyunits";
+import InformationTech from "./BodyComponents/subjects/InformationTech";
 //import ComMathscategories from "./BodyComponents/subjects/ComMathscategories";
 import SubjectVideo from "./BodyComponents/SubjectVideo";
 import SigninPage from "./BodyComponents/SigninPage";
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route path="/chemistryunits" exact>
             <Chemistryunits />
+          </Route>
+          <Route path="/itunits" exact>
+            <InformationTech />
           </Route>
           <Route path="/biologyunits" exact>
             <Biologyunits />
