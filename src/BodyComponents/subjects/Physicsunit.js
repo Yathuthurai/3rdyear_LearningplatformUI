@@ -1,6 +1,7 @@
 import React from "react";
 
 import UnitsList from "../components/UnitsList";
+import SubjectsList from "../components/SubjectsList";
 import "./Units.css";
 
 const Physicsunits = () => {
@@ -84,8 +85,8 @@ const Physicsunits = () => {
     },
   ];
   return (
-    <div className="phy-bg">
-      <UnitsList items={UNITS} />
+    <div className="uni-bg">
+      <SubjectsList items={UNITS} />
     </div>
   );
 };

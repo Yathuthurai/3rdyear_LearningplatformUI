@@ -247,6 +247,8 @@ export default function MyTable(props) {
                     UnitNum="10"
                     Button1Text="P.Maths"
                     Button2Text="A.Maths"
+                    ButtonRoute1="pureMaths"
+                    ButtonRoute2="appliedMaths"
                   />
                 </Paper>
               </Grid>

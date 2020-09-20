@@ -3,6 +3,8 @@ import "./App.css";
 import Navibar from "./HeaderComponents/Navibar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import PureMaths from "./BodyComponents/subjects/PureMaths";
+import AppliedMaths from "./BodyComponents/subjects/AppliedMaths";
 import Physicsunit from "./BodyComponents/subjects/Physicsunit";
 import Chemistryunits from "./BodyComponents/subjects/Chemistryunit";
 import Biologyunits from "./BodyComponents/subjects/Biologyunits";
@@ -47,6 +49,12 @@ function App() {
           </Route>
           <Route path="/chemistryunits" exact>
             <Chemistryunits />
+          </Route>
+          <Route path="/appliedMaths" exact>
+            <AppliedMaths />
+          </Route>
+          <Route path="/pureMaths" exact>
+            <PureMaths />
           </Route>
           <Route path="/itunits" exact>
             <InformationTech />

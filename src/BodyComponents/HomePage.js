@@ -132,7 +132,7 @@ function HomePage() {
                         <br />
                         Number of Mentors: xx
                         <br />
-                        Number of Subjects: xx
+                        Number of Subjects: 11
                       </p>
                     </div>
                   </div>
@@ -156,7 +156,7 @@ function HomePage() {
                         <br />
                         Number of Mentors: xx
                         <br />
-                        Number of Subjects: xx
+                        Number of Subjects: 14
                       </p>
                     </div>
                   </div>
@@ -180,7 +180,7 @@ function HomePage() {
                         <br />
                         Number of Mentors: xx
                         <br />
-                        Number of Subjects: xx
+                        Number of Subjects: 10
                       </p>
                     </div>
                   </div>
@@ -228,7 +228,7 @@ function HomePage() {
                         <br />
                         Number of Mentors: xx
                         <br />
-                        Number of Subjects: xx
+                        Number of Subjects: 14
                       </p>
                     </div>
                   </div>
@@ -272,11 +272,11 @@ function HomePage() {
                 />
                 <h4>Sivarasa Sivapriyan</h4>
                 <p className="text-muted" style={{ color: "#799ed2" }}>
-                  example@gmail.com
+                  priyansiva1995@gmail.com
                 </p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://github.com/PriyanSiva">
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
@@ -302,11 +302,11 @@ function HomePage() {
                 />
                 <h4>Anojija Vijayakumar</h4>
                 <p className="text-muted" style={{ color: "#799ed2" }}>
-                  example@gmail.com
+                  anojiya8@gmail.com
                 </p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://github.com/Anojiya">
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
@@ -332,11 +332,11 @@ function HomePage() {
                 />
                 <h4>Thurairajah Yathurshan</h4>
                 <p className="text-muted" style={{ color: "#799ed2" }}>
-                  example@gmail.com
+                  yathurshanlk1212@gmail.com
                 </p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://github.com/Yathuthurai">
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
@@ -364,11 +364,11 @@ function HomePage() {
                 />
                 <h4>Thavaranjan Mayurathan</h4>
                 <p className="text-muted" style={{ color: "#799ed2" }}>
-                  example@gmail.com
+                  mayurathanmahi7@gmail.com
                 </p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://github.com/mayurathan22">
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
@@ -394,11 +394,11 @@ function HomePage() {
                 />
                 <h4>Vasudevan Dilushkumar</h4>
                 <p className="text-muted" style={{ color: "#799ed2" }}>
-                  example@gmail.com
+                  dilushvasu1996@gmail.com
                 </p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://github.com/DilushkumarVasu">
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
