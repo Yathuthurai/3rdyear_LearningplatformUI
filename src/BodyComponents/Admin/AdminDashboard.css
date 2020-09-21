@@ -1,0 +1,16 @@
+.adminDashboard {
+  display: flex;
+}
+
+.adminDashboard__container {
+  margin-left: 270px;
+  margin-top: 50px;
+}
+
+link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}

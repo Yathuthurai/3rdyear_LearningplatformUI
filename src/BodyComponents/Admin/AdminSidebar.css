@@ -1,0 +1,32 @@
+.adminSidebar {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 15%;
+  min-width: 230px;
+  border-right: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+}
+.adminSidebar__avatar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.adminSidebar__avatar h6 {
+  padding-left: 10px;
+}
+.adminSidebar__button {
+  width: "100%";
+  max-width: 360;
+}
+
+link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}

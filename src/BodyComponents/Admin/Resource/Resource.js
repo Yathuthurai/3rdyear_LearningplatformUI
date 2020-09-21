@@ -1,0 +1,44 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import PastPaper from "./Pastpaper/PastPaper";
+import "./Resource.css";
+
+const resources = [
+  "Lectures",
+  "Pastpapers",
+  "Exampapers",
+  "Practice Questions",
+  "Articles",
+  "Forum",
+];
+function Resource() {
+  const [showView, setShowView] = useState("Lectures");
+
+  return (
+    <Router>
+      <div className="resource">
+        <div className="btn-group" role="group" aria-label="Basic example">
+          {resources.map((resource) => {
+            return (
+              <button
+                type="button"
+                className="btn btn-secondary mr-2"
+                onClick={() => setShowView(resource)}
+              >
+                {resource}
+              </button>
+            );
+          })}
+        </div>
+        ]
+        <div className="resource__content mt-5">
+          <p>{showView === "Pastpapers" && <PastPaper />}</p>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default Resource;

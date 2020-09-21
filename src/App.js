@@ -22,6 +22,8 @@ import {
   Redirect,
   Switch,
 } from "react-router-dom";
+import AdminDashboard from "./BodyComponents/Admin/AdminDashboard";
+import Resource from "./BodyComponents/Admin/Resource/Resource";
 
 function App() {
   return (
@@ -65,7 +67,9 @@ function App() {
           <Route path="/:unitId/modules" exact>
             <SubjectVideo />
           </Route>
-          <Redirect to="/" />
+          <Route path="/admin" exact>
+            <AdminDashboard />
+          </Route>
         </Switch>
       </main>
     </Router>
