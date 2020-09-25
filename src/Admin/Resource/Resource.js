@@ -1,0 +1,58 @@
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Button from "@material-ui/core/Button";
+
+import PastPaper from "./Pastpaper/PastPaper";
+import Lectures from "./Lectures/Lectures";
+import "./Resource.css";
+
+axios.defaults.baseURL = "https://localhost:5000";
+
+const resources = [
+  "Lectures",
+  "Pastpapers",
+  "Exampapers",
+  "Practice Questions",
+  "Articles",
+  "Forum",
+];
+const get = () => {
+  axios.get("/resources").then((result) => {
+    console.log(result.data);
+  });
+};
+function Resource() {
+  const [showView, setShowView] = useState("Lectures");
+  const [dataR, setdataR] = useState([]);
+
+  console.log(dataR);
+  return (
+    <Router>
+      <div className="card resource">
+        <h5 className="card-header text-center">
+          <div className="btn-group" role="group" aria-label="Basic example">
+            {resources.map((resource) => {
+              return (
+                <Button onClick={() => setShowView(resource)}>
+                  {resource}
+                </Button>
+              );
+            })}
+          </div>
+        </h5>
+        <div className="card-body">
+          <Button onClick={get}>Get</Button>
+          <div className="resource__content mt-1">
+            <p>{showView === "Pastpapers" && <PastPaper />}</p>
+            <p>{showView === "Lectures" && <Lectures />}</p>
+          </div>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default Resource;
