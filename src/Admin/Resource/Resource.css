@@ -1,6 +1,9 @@
 .input {
   display: "none";
 }
+.resource {
+  width: 77vw;
+}
 
 .resource__content {
   margin-top: 20px;

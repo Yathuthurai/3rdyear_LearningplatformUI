@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Navibar from "./HeaderComponents/Navibar";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,8 +22,8 @@ import {
   Redirect,
   Switch,
 } from "react-router-dom";
-import AdminDashboard from "./BodyComponents/Admin/AdminDashboard";
-import Resource from "./BodyComponents/Admin/Resource/Resource";
+import AdminDashboard from "./Admin/AdminDashboard";
+import Resource from "./Admin/Resource/Resource";
 
 function App() {
   return (
