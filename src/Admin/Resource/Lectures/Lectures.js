@@ -13,14 +13,13 @@ function PastPaper() {
       <div className="btn-group" role="group" aria-label="Basic example">
         {options.map((option) => {
           return (
-            <Button
-              className="mr-2"
+            <button
+              className="btn btn-secondary mr-2"
               variant="contained"
-              color="primary"
               onClick={() => setShowView(option)}
             >
               {option}
-            </Button>
+            </button>
           );
         })}
       </div>

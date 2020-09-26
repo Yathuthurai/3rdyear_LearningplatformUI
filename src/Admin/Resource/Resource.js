@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
 import Button from "@material-ui/core/Button";
 
 import PastPaper from "./Pastpaper/PastPaper";
+import ExamPaper from "./Exampaper/ExamPaper";
 import Lectures from "./Lectures/Lectures";
 import "./Resource.css";
 
@@ -33,12 +33,12 @@ function Resource() {
     <Router>
       <div className="card resource">
         <h5 className="card-header text-center">
-          <div className="btn-group" role="group" aria-label="Basic example">
+          <div className="btn-group" role="toolbar" aria-label="Basic example">
             {resources.map((resource) => {
               return (
-                <Button onClick={() => setShowView(resource)}>
+                <button type="button" className="btn btn-secondary"onClick={() => setShowView(resource)}>
                   {resource}
-                </Button>
+                </button>
               );
             })}
           </div>
@@ -47,6 +47,7 @@ function Resource() {
           <Button onClick={get}>Get</Button>
           <div className="resource__content mt-1">
             <p>{showView === "Pastpapers" && <PastPaper />}</p>
+            <p>{showView === "Exampapers" && <ExamPaper />}</p>
             <p>{showView === "Lectures" && <Lectures />}</p>
           </div>
         </div>
