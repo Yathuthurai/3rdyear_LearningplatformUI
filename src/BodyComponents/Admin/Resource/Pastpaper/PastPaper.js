@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AddPastPaper from "./Components/AddPastPaper";
 import ViewPastpaper from "./Components/ViewPastpaper";
 
-const options = ["Add Pastpaper", "View Pastpaper", "Generate Report"];
+const options = ["Add Past papers", "View Past papers", "Generate Report"];
 function PastPaper() {
   const [showView, setShowView] = useState("Add Pastpaper");
 
@@ -23,8 +23,8 @@ function PastPaper() {
       </div>
 
       <div className="mt-3">
-        <p>{showView === "Add Pastpaper" && <AddPastPaper />}</p>
-        <p>{showView === "View Pastpaper" && <ViewPastpaper />}</p>
+        <p>{showView === "Add Past papers" && <AddPastPaper />}</p>
+        <p>{showView === "View Past papers" && <ViewPastpaper />}</p>
       </div>
     </div>
   );

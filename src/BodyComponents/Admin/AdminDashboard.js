@@ -33,9 +33,8 @@ function AdminDashboard() {
   return (
     <Router>
       <div className="adminDashboard">
-        <div>
           <AdminSidebar />
-          <div class="adminDashboard__container">
+          <div className="adminDashboard__container">
             {routes.map((route, index) => (
               <Route
                 key={route.path}
@@ -45,7 +44,6 @@ function AdminDashboard() {
               ></Route>
             ))}
           </div>
-        </div>
       </div>
     </Router>
   );

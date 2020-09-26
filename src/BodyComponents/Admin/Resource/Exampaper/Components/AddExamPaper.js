@@ -1,9 +1,9 @@
 import React from "react";
 
-function AddPastPaper() {
+function AddExamPaper() {
   return (
     <div className="card">
-      <div className="card-header">Add Past Papers</div>
+      <div className="card-header">Add Exam Papers</div>
       <div className="card-body">
         <form>
           <div className="form-row">
@@ -37,6 +37,8 @@ function AddPastPaper() {
                 <option>2016</option>
                 <option>2015</option>
                 <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
               </select>
             </div>
             <div className="input-group mb-3">
@@ -65,4 +67,4 @@ function AddPastPaper() {
   );
 }
 
-export default AddPastPaper;
+export default AddExamPaper;

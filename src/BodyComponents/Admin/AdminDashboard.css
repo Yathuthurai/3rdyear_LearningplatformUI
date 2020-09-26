@@ -3,8 +3,11 @@
 }
 
 .adminDashboard__container {
-  margin-left: 270px;
+  margin-left: 20px;
   margin-top: 50px;
+  align-items: center;
+  min-width: max-content;
+
 }
 
 link {
