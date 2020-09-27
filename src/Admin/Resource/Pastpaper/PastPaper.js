@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import AddPastPaper from "./Components/AddPastPaper";
 import ViewPastpaper from "./Components/ViewPastpaper";
-
+import "./Pastpaper.css";
 
 const options = ["Add Past papers", "View Past papers", "Generate Report"];
 function PastPaper() {
-  const [showView, setShowView] = useState("Add Pastpaper");
+  const [showView, setShowView] = useState("View Past papers");
 
   return (
     <div className="pastpaper">

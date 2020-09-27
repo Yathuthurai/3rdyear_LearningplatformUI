@@ -7,6 +7,8 @@ import Button from "@material-ui/core/Button";
 import PastPaper from "./Pastpaper/PastPaper";
 import ExamPaper from "./Exampaper/ExamPaper";
 import Lectures from "./Lectures/Lectures";
+import Questions from "./Questions/Questions";
+import Article from "./Article/Article";
 import "./Resource.css";
 
 axios.defaults.baseURL = "https://localhost:5000";
@@ -25,7 +27,7 @@ const get = () => {
   });
 };
 function Resource() {
-  const [showView, setShowView] = useState("Lectures");
+  const [showView, setShowView] = useState("");
   const [dataR, setdataR] = useState([]);
 
   console.log(dataR);
@@ -49,6 +51,9 @@ function Resource() {
             <p>{showView === "Pastpapers" && <PastPaper />}</p>
             <p>{showView === "Exampapers" && <ExamPaper />}</p>
             <p>{showView === "Lectures" && <Lectures />}</p>
+            <p>{showView === "Practice Questions" && <Questions />}</p>
+            <p>{showView === "Articles" && <Article />}</p>
+
           </div>
         </div>
       </div>
