@@ -8,6 +8,16 @@ import Avatar from "@material-ui/core/Avatar";
 import LaptopChromebookIcon from "@material-ui/icons/LaptopChromebook";
 import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
 import PersonIcon from "@material-ui/icons/Person";
+import NoteIcon from "@material-ui/icons/Note";
+import DateRangeIcon from "@material-ui/icons/DateRange";
+import QuestionAnswerIcon from "@material-ui/icons/QuestionAnswer";
+import DescriptionIcon from "@material-ui/icons/Description";
+import BookIcon from "@material-ui/icons/Book";
+import SettingsIcon from "@material-ui/icons/Settings";
+import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import MailIcon from "@material-ui/icons/Mail";
 
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
@@ -21,45 +31,125 @@ function AdminSidebar() {
         <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
         <h6>Admin One</h6>
       </div>
-      <List
-        component="nav"
-        className=".adminSidebar__button"
-        aria-label="mailbox folders"
-      >
+      <Divider />
+      <List>
         <ListItem button>
+          <ListItemIcon>
+            <LaptopChromebookIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-lectures"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Lectures" />
+          </Link>
+        </ListItem>
+        <ListItem button>
+          <ListItemIcon>
+            <DateRangeIcon />
+          </ListItemIcon>
           <Link
             to="/admin/resource-management"
-            style={{ textDecoration: "none", color: "#fff" }}
+            style={{ textDecoration: "none", color: "#000" }}
           >
-            <LaptopChromebookIcon className="mr-2" />
-            Resource Management
-          </Link>
-        </ListItem>
-        <Divider />
-        <ListItem button divider>
-          <Link
-            to="/admin/mentor-management"
-            style={{ textDecoration: "none", color: "#fff" }}
-          >
-            <SupervisorAccountIcon className="mr-2" />
-            Mentor Management
+            <ListItemText primary="Past Papers" />
           </Link>
         </ListItem>
         <ListItem button>
+          <ListItemIcon>
+            <BookIcon />
+          </ListItemIcon>
           <Link
-            to="/admin/student-management"
-            style={{
-              textDecoration: "none",
-              color: "#fff",
-              display: "flex",
-              justifyContent: "space-between",
-            }}
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
           >
-            <PersonIcon className="mr-2" />
-            Student Management
+            <ListItemText primary="Exam Papers" />
           </Link>
         </ListItem>
-        <Divider light />
+        <ListItem button>
+          <ListItemIcon>
+            <QuestionAnswerIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Questions" />
+          </Link>
+        </ListItem>
+        <ListItem button>
+          <ListItemIcon>
+            <DescriptionIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Articles" />
+          </Link>
+        </ListItem>
+        <ListItem button>
+          <ListItemIcon>
+            <NoteIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Short Notes" />
+          </Link>
+        </ListItem>
+      </List>
+      <Divider />
+      <List>
+        <ListItem button>
+          <ListItemIcon>
+            <SettingsIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Mentors" />
+          </Link>
+        </ListItem>
+        <ListItem button>
+          <ListItemIcon>
+            <PersonIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Students" />
+          </Link>
+        </ListItem>
+      </List>
+
+      <Divider />
+      <List>
+        <ListItem button>
+          <ListItemIcon>
+            <SupervisorAccountIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Setting" />
+          </Link>
+        </ListItem>
+        <ListItem button>
+          <ListItemIcon>
+            <ExitToAppIcon />
+          </ListItemIcon>
+          <Link
+            to="/admin/resource-management"
+            style={{ textDecoration: "none", color: "#000" }}
+          >
+            <ListItemText primary="Logout" />
+          </Link>
+        </ListItem>
       </List>
     </div>
   );

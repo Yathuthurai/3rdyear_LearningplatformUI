@@ -1,12 +1,9 @@
 .adminSidebar {
-  position:relative;
-  left: 0;
-  height: 100vh;
-  width: 15%;
-  min-width: 230px;
   border-right: 1px solid #333;
-  background-color: #333;
-  color: #fff;
+  min-width: 260px;
+  padding: 0 20px;
+  background-color: #ebedef;
+  height: 90vh;
 }
 .adminSidebar__avatar {
   display: flex;
