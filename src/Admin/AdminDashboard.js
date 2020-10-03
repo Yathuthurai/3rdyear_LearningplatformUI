@@ -1,27 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import Divider from "@material-ui/core/Divider";
-import Avatar from "@material-ui/core/Avatar";
 import AdminSidebar from "./AdminSidebar";
 import "./AdminDashboard.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Resource from "./Resource/Resource";
+import Lectures from "./Resource/Lectures/Lectures";
+import PastPaper from "./Resource/Pastpaper/PastPaper";
+import ExamPaper from "./Resource/Exampaper/ExamPaper";
+import Questions from "./Resource/Questions/Questions";
 
 const routes = [
   {
-    path: "/admin/resource-management",
+    path: "/admin/lectures",
     exact: true,
-    main: () => <Resource />,
+    main: () => <Lectures />,
   },
   {
-    path: "/admin/mentor-management",
+    path: "/admin/pastpapers",
     exact: true,
-    main: () => <h1>hi</h1>,
+    main: () => <PastPaper />,
+  },
+  {
+    path: "/admin/exampapers",
+    exact: true,
+    main: () => <ExamPaper />,
+  },
+  {
+    path: "/admin/questions",
+    exact: true,
+    main: () => <Questions />,
   },
   {
     path: "/admin/student-management",
@@ -33,17 +39,17 @@ function AdminDashboard() {
   return (
     <Router>
       <div className="adminDashboard">
-          <AdminSidebar />
-          <div className="adminDashboard__container">
-            {routes.map((route, index) => (
-              <Route
-                key={route.path}
-                path={route.path}
-                exact={route.exact}
-                component={route.main}
-              ></Route>
-            ))}
-          </div>
+        <AdminSidebar />
+        <div className="adminDashboard__container">
+          {routes.map((route, index) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              exact={route.exact}
+              component={route.main}
+            ></Route>
+          ))}
+        </div>
       </div>
     </Router>
   );

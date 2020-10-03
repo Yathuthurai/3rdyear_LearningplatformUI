@@ -23,7 +23,6 @@ import {
   Switch,
 } from "react-router-dom";
 import AdminDashboard from "./Admin/AdminDashboard";
-import Resource from "./Admin/Resource/Resource";
 
 function App() {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 
 function AddExamPaper() {
   return (
-    <div className="card">
+    <div className="card" style={{ width: "73vw" }}>
       <div className="card-header">Add Exam Papers</div>
       <div className="card-body">
         <form>

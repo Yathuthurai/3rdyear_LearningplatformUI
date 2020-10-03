@@ -4,7 +4,7 @@ import EditIcon from "@material-ui/icons/Edit";
 
 function ViewQuestions() {
   return (
-    <div>
+    <div style={{ width: "73vw" }}>
       <table class="table table-hover">
         <thead>
           <tr>

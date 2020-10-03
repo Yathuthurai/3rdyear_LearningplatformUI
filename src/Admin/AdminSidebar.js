@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
@@ -17,9 +17,6 @@ import SettingsIcon from "@material-ui/icons/Settings";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-import MailIcon from "@material-ui/icons/Mail";
-
-import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
 import "./AdminSidebar.css";
 import { Link } from "react-router-dom";
@@ -38,7 +35,7 @@ function AdminSidebar() {
             <LaptopChromebookIcon />
           </ListItemIcon>
           <Link
-            to="/admin/resource-lectures"
+            to="/admin/lectures"
             style={{ textDecoration: "none", color: "#000" }}
           >
             <ListItemText primary="Lectures" />
@@ -49,7 +46,7 @@ function AdminSidebar() {
             <DateRangeIcon />
           </ListItemIcon>
           <Link
-            to="/admin/resource-management"
+            to="/admin/pastpapers"
             style={{ textDecoration: "none", color: "#000" }}
           >
             <ListItemText primary="Past Papers" />
@@ -60,7 +57,7 @@ function AdminSidebar() {
             <BookIcon />
           </ListItemIcon>
           <Link
-            to="/admin/resource-management"
+            to="/admin/exampapers"
             style={{ textDecoration: "none", color: "#000" }}
           >
             <ListItemText primary="Exam Papers" />
@@ -71,7 +68,7 @@ function AdminSidebar() {
             <QuestionAnswerIcon />
           </ListItemIcon>
           <Link
-            to="/admin/resource-management"
+            to="/admin/questions"
             style={{ textDecoration: "none", color: "#000" }}
           >
             <ListItemText primary="Questions" />
@@ -136,7 +133,7 @@ function AdminSidebar() {
             to="/admin/resource-management"
             style={{ textDecoration: "none", color: "#000" }}
           >
-            <ListItemText primary="Setting" />
+            <ListItemText primary="Settings" />
           </Link>
         </ListItem>
         <ListItem button>

@@ -2,7 +2,7 @@ import React from "react";
 
 function AddPastPaper() {
   return (
-    <div className="card">
+    <div className="card" style={{ width: "73vw" }}>
       <div className="card-header">Add Past Papers</div>
       <div className="card-body">
         <form>
