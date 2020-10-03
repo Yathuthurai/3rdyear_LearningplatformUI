@@ -5,7 +5,7 @@ import "./Exampaper.css";
 
 const options = ["Add Exam papers", "View Exam papers", "Generate Report"];
 function ExamPaper() {
-  const [showView, setShowView] = useState("Add Exampaper");
+  const [showView, setShowView] = useState("View Exam papers");
 
   return (
     <div className="exampaper">
