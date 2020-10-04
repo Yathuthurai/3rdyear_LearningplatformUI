@@ -25,14 +25,17 @@ function AdminSidebar() {
   return (
     <div className="adminSidebar">
       <div className="adminSidebar__avatar">
-        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+        <Avatar
+          alt="Remy Sharp"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSq7kZ4qPLBXUSDFsH2g5rQY9xAUYSpdbmWw&usqp=CAU"
+        />
         <h6>Admin One</h6>
       </div>
       <Divider />
       <List>
         <ListItem button>
           <ListItemIcon>
-            <LaptopChromebookIcon />
+            <LaptopChromebookIcon style={{ color: "#641E16" }} />
           </ListItemIcon>
           <Link
             to="/admin/lectures"
@@ -43,7 +46,7 @@ function AdminSidebar() {
         </ListItem>
         <ListItem button>
           <ListItemIcon>
-            <DateRangeIcon />
+            <DateRangeIcon style={{ color: "#512E5F" }} />
           </ListItemIcon>
           <Link
             to="/admin/pastpapers"
@@ -54,7 +57,7 @@ function AdminSidebar() {
         </ListItem>
         <ListItem button>
           <ListItemIcon>
-            <BookIcon />
+            <BookIcon style={{ color: "#7D6608" }} />
           </ListItemIcon>
           <Link
             to="/admin/exampapers"
@@ -65,7 +68,7 @@ function AdminSidebar() {
         </ListItem>
         <ListItem button>
           <ListItemIcon>
-            <QuestionAnswerIcon />
+            <QuestionAnswerIcon style={{ color: "#0E6251" }} />
           </ListItemIcon>
           <Link
             to="/admin/questions"
@@ -76,7 +79,7 @@ function AdminSidebar() {
         </ListItem>
         <ListItem button>
           <ListItemIcon>
-            <DescriptionIcon />
+            <DescriptionIcon style={{ color: "#6E2C00" }} />
           </ListItemIcon>
           <Link
             to="/admin/resource-management"
@@ -87,7 +90,7 @@ function AdminSidebar() {
         </ListItem>
         <ListItem button>
           <ListItemIcon>
-            <NoteIcon />
+            <NoteIcon style={{ color: "#2471A3" }} />
           </ListItemIcon>
           <Link
             to="/admin/resource-management"
@@ -112,7 +115,7 @@ function AdminSidebar() {
         </ListItem>
         <ListItem button>
           <ListItemIcon>
-            <PersonIcon />
+            <PersonIcon style={{ color: "#641E16" }} />
           </ListItemIcon>
           <Link
             to="/admin/resource-management"
