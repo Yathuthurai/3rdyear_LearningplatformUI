@@ -1,15 +1,30 @@
 .adminSidebar {
-  border-right: 1px solid #333;
+  border-right: 2px solid #333;
   min-width: 260px;
   padding: 0 20px;
-  background-color: #ebedef;
-  height: 90vh;
+  background-color: #464444;
+  height: 100vh;
+}
+.btnSidebar{
+  cursor: pointer;
+}
+.btnSidebar:focus{
+  color: rgb(201, 204, 204);
+}
+.btnSidebar:hover{
+  box-shadow: 0 12px 16px 0  rgba(0,0,0,0.15), 0px 17px 50px 0 rgba(0,0,0,0.15);
+}
+
+.icon{
+  color: white;
 }
 .adminSidebar__avatar {
   display: flex;
   align-items: center;
-  padding: 10px;
-  justify-content: center;
+  padding: 20px;
+  justify-content: left;
+  height: 80px;
+  margin-right: 10px;
 }
 
 .adminSidebar__avatar h6 {
@@ -20,8 +35,13 @@
   max-width: 360;
 }
 
+
 link {
   text-decoration: none;
+}
+
+link:active{
+  color: aqua;
 }
 
 a {
@@ -29,5 +49,5 @@ a {
 }
 
 .button__active {
-  background-color: #566573;
+  background-color: #ffffff;
 }
