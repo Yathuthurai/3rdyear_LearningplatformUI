@@ -4,16 +4,17 @@ import ViewLectures from "./Components/ViewLectures.js";
 
 const options = ["Add Lecture", "View Lectures", "Generate Report"];
 function Lectures() {
-  const [showView, setShowView] = useState("View Lectures");
+  const [showView, setShowView] = useState("Add Lecture");
 
   return (
-    <div className="card" style={{ alignItems: "center" }}>
-      <div className="card-header text-center">
+    <div className="card">
+      <div className="card-header">
         <div className="btn-group" role="group" aria-label="Basic example">
           {options.map((option) => {
             return (
               <button
-                className="btn btn-secondary mr-2"
+                style={{ backgroundColor: "#7B241C", color: "#fff" }}
+                className="btn mr-2"
                 variant="contained"
                 onClick={() => setShowView(option)}
               >

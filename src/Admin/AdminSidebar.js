@@ -24,7 +24,6 @@ function AdminSidebar() {
   return (
     <div className="adminSidebar">
       <div className="adminSidebar__avatar">
-<<<<<<< HEAD
         <Avatar
           alt="Remy Sharp"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSq7kZ4qPLBXUSDFsH2g5rQY9xAUYSpdbmWw&usqp=CAU"
@@ -36,16 +35,6 @@ function AdminSidebar() {
         <ListItem button>
           <ListItemIcon>
             <LaptopChromebookIcon style={{ color: "#641E16" }} />
-=======
-        <Avatar />
-        <h6 style={{color:"white"}}>Admin One</h6>
-      </div>
-      <Divider />
-      <List>
-        <ListItem button className="btnSidebar active">
-          <ListItemIcon style={{color:"#ffffff"}}>
-            <LaptopChromebookIcon />
->>>>>>> 9c2a79014f5c367e2ec9a000a78c9d2ec9be5829
           </ListItemIcon>
           <Link
             to="/admin/lectures"
@@ -54,15 +43,9 @@ function AdminSidebar() {
             <ListItemText primary="Lectures" />
           </Link>
         </ListItem>
-<<<<<<< HEAD
         <ListItem button>
           <ListItemIcon>
             <DateRangeIcon style={{ color: "#512E5F" }} />
-=======
-        <ListItem button className="btnSidebar active">
-          <ListItemIcon style={{color:"#ffffff"}}>
-            <DateRangeIcon />
->>>>>>> 9c2a79014f5c367e2ec9a000a78c9d2ec9be5829
           </ListItemIcon>
           <Link
             to="/admin/pastpapers"
@@ -71,15 +54,9 @@ function AdminSidebar() {
             <ListItemText primary="Past Papers" />
           </Link>
         </ListItem>
-<<<<<<< HEAD
         <ListItem button>
           <ListItemIcon>
             <BookIcon style={{ color: "#7D6608" }} />
-=======
-        <ListItem button className="btnSidebar active">
-          <ListItemIcon style={{color:"#ffffff"}}>
-            <BookIcon />
->>>>>>> 9c2a79014f5c367e2ec9a000a78c9d2ec9be5829
           </ListItemIcon>
           <Link
             to="/admin/exampapers"
@@ -88,15 +65,9 @@ function AdminSidebar() {
             <ListItemText primary="Exam Papers" />
           </Link>
         </ListItem>
-<<<<<<< HEAD
         <ListItem button>
           <ListItemIcon>
             <QuestionAnswerIcon style={{ color: "#0E6251" }} />
-=======
-        <ListItem button className="btnSidebar active">
-          <ListItemIcon style={{color:"#ffffff"}}>
-            <QuestionAnswerIcon />
->>>>>>> 9c2a79014f5c367e2ec9a000a78c9d2ec9be5829
           </ListItemIcon>
           <Link
             to="/admin/questions"
@@ -105,15 +76,9 @@ function AdminSidebar() {
             <ListItemText primary="Questions" />
           </Link>
         </ListItem>
-<<<<<<< HEAD
         <ListItem button>
           <ListItemIcon>
             <DescriptionIcon style={{ color: "#6E2C00" }} />
-=======
-        <ListItem button className="btnSidebar active">
-          <ListItemIcon style={{color:"#ffffff"}}>
-            <DescriptionIcon />
->>>>>>> 9c2a79014f5c367e2ec9a000a78c9d2ec9be5829
           </ListItemIcon>
           <Link
             to="/admin/resource-management"
@@ -122,15 +87,9 @@ function AdminSidebar() {
             <ListItemText primary="Articles" />
           </Link>
         </ListItem>
-<<<<<<< HEAD
         <ListItem button>
           <ListItemIcon>
             <NoteIcon style={{ color: "#2471A3" }} />
-=======
-        <ListItem button className="btnSidebar">
-          <ListItemIcon style={{color:"#ffffff"}}>
-            <NoteIcon />
->>>>>>> 9c2a79014f5c367e2ec9a000a78c9d2ec9be5829
           </ListItemIcon>
           <Link
             to="/admin/resource-management"
@@ -143,7 +102,7 @@ function AdminSidebar() {
       <Divider />
       <List>
         <ListItem button className="btnSidebar">
-          <ListItemIcon style={{color:"#ffffff"}}>
+          <ListItemIcon style={{ color: "#ffffff" }}>
             <SettingsIcon />
           </ListItemIcon>
           <Link
@@ -153,15 +112,9 @@ function AdminSidebar() {
             <ListItemText primary="Mentors" />
           </Link>
         </ListItem>
-<<<<<<< HEAD
         <ListItem button>
           <ListItemIcon>
             <PersonIcon style={{ color: "#641E16" }} />
-=======
-        <ListItem button className="btnSidebar">
-          <ListItemIcon style={{color:"#ffffff"}}>
-            <PersonIcon />
->>>>>>> 9c2a79014f5c367e2ec9a000a78c9d2ec9be5829
           </ListItemIcon>
           <Link
             to="/admin/resource-management"
@@ -175,7 +128,7 @@ function AdminSidebar() {
       <Divider />
       <List>
         <ListItem button className="btnSidebar">
-          <ListItemIcon style={{color:"#ffffff"}}>
+          <ListItemIcon style={{ color: "#ffffff" }}>
             <SupervisorAccountIcon />
           </ListItemIcon>
           <Link
@@ -186,7 +139,7 @@ function AdminSidebar() {
           </Link>
         </ListItem>
         <ListItem button className="btnSidebar">
-          <ListItemIcon style={{color:"#ffffff"}}>
+          <ListItemIcon style={{ color: "#ffffff" }}>
             <ExitToAppIcon />
           </ListItemIcon>
           <Link
